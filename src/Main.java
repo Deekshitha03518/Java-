@@ -13,7 +13,7 @@ public class Main{
 
         Circumference= 2*Math.PI*r;
         Area=Math.PI*Math.pow(r,2);
-        Volume=(4/3)*Math.PI*Math.pow(r,3);
+        Volume=(4.0/3.0)*Math.PI*Math.pow(r,3);
 
         System.out.println("The circumference is  " + Circumference);
         System.out.println("The Area is " + Area);
