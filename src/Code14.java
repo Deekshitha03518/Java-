@@ -38,7 +38,7 @@ public class Code14{
     }
     static double deposit(){
         double amount;
-        System.out.println("Enter an amount to be deposited: ");
+        System.out.print("Enter an amount to be deposited: ");
         amount = scanner.nextDouble();
 
         if(amount < 0){
@@ -52,7 +52,7 @@ public class Code14{
     static double withdraw(double balance){
         double amount;
 
-        System.out.println("Enter amount to be withdrawn: ");
+        System.out.print("Enter amount to be withdrawn: ");
         amount = scanner.nextDouble();
 
         if(amount > balance){
